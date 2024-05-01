@@ -72,8 +72,5 @@ Constrói o app para produção na pasta 'dist'.
 * **NPM** - Gerenciador de pacotes padrão para o ambiente de tempo de execução JavaScript Node.JS.
 * **Vite** - Servidor de desenvolvimento local escrito pelo criador do Vue.js, e usado por padrão pelo Vue.js e para modelos de projeto React.
 
-## ✒️ Autor
-
-Guilherme Ferreira Camargo
 
 
