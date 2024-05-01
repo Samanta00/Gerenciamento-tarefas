@@ -4,6 +4,7 @@
   import Formulario from './components/Formulario.vue';
   import ListaDeTarefas from './components/ListaDeTarefas.vue';
   import Footer from './components/Footer.vue';
+  import Route from './router/route.vue';
 
   const estado = reactive({
     filtro: "todas",
@@ -57,9 +58,6 @@
 
 <template>
   <div class="container">
-    <Cabecalho :tarefas-pendentes="getTarefasPendentes().length" />
-    <Formulario :trocar-filtro="evento => estado.filtro = evento.target.value" :tarefa-temp="estado.tarefaTemp" :edita-tarefa-temp="evento => estado.tarefaTemp = evento.target.value" :cadastra-tarefa="cadastraTarefa"/>
-    <ListaDeTarefas :tarefas="getTarefasFiltradas()"/>
-    <Footer></Footer>
+    <Route/>
   </div>
 </template>
